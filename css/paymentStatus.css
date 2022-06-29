@@ -1,0 +1,140 @@
+
+
+body{
+     background: #eaeaea;
+    font-family: 'Roboto',sans-serif;
+}
+.payment-status-wrapper{
+    width: 100%;
+   
+}
+.pay-success-notification img{
+    max-height: 52px;
+}
+.pay-success-notification center{
+    margin: 8px auto 0 auto;
+    font-weight: 600;
+    font-size: 2.25rem;
+    color: #777777;
+}
+.payment-transaction-details{
+    margin: 2rem auto;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #777777;
+    width: auto;
+    display: table;
+}
+.payment-transaction-details span{
+    font-size: 0.875rem;
+    text-align: left;
+    font-weight: 500;
+}
+.payment-transaction-details span:first-child{
+    margin-top: 8px;
+}
+.values{
+    float: right;
+    font-family: monospace;
+    font-size: 1.3rem;
+    padding-bottom: 2px;
+}
+.plan-purchase-msg{
+    position: relative;
+}
+.plan-purchase-msg img{
+    width: auto;
+    height: 60px;
+}
+.plan-text{
+    position: relative;
+    color: #f2f2f2;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 50px;
+    margin: 36px auto;
+    width: auto;
+    height: auto;
+    border-radius: 35px;
+    background: #0ba2c5;
+    box-shadow: 0 2px 1px 0 rgba(0,0,0,0.3);
+}
+.plan-text span{
+    display:inline-block;
+    color: white;
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 70px;
+    width: 80px;
+    height: 70px;
+    border-bottom: 4px solid white;
+   }
+.thanx-msg{
+    font-size: 1rem;
+    color: #919191; 
+    text-align: center;
+    margin-top: 30px;
+}
+.thanx-msg span{
+    display: block;
+    font-size: 0.875rem;
+}
+.thanx-msg span p{
+    display: inline-block;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    margin-left: 4px;
+}
+.input[type=email]{
+    margin: 0!important;
+}
+.input-field{
+    margin: 0 0 20px 0!important;
+}
+
+@media (max-width:550px) and (min-width:360px){
+    .plan-text{
+        width: 95%;
+    }
+    html{
+        font-size: 70%;
+    }
+    .row .col{
+        padding: 0 !important;
+    }
+    .pay-success-notification img{
+        margin-top: 30px !important;
+    }
+} 
+@media (max-width:516px) and (min-width:300px){
+    html{
+        font-size: 70%;
+    }
+
+    .plan-text{
+        height: auto;
+        padding: 12px 6px;
+        width: 100%;
+        border-radius: 2px;
+    }
+    
+    .plan-text span{
+        height: auto;
+        line-height: 35px;
+        background: transparent;
+    }
+   
+}
+
+@media(max-width:320px) and (min-width:300px){
+    
+     nav .brand-logo{
+        width: 139px;
+         padding-top: 8px!important;
+    }
+    .licenseCard{
+        padding: 12px;
+    }
+
+}

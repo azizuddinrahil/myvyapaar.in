@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /blog/wp-content/*
+Disallow: /blog/wp-includes/*
+Disallow: /blog/login
+Disallow: /blog/wp-admin/*
+Disallow: /store/*
+Disallow: /catalogue/*
+Sitemap: https://vyaparapp.in/sitemap.xml
